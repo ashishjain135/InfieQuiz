@@ -1,0 +1,40 @@
+InfiQuiz/                 
+│── frontend/              # Sirf frontend ka kaam (HTML, CSS, JS, assets)
+│   ├── index.html         # Landing page
+│   ├── student/           # Student side pages
+│   │   ├── login.html
+│   │   ├── signup.html
+│   │   ├── dashboard.html
+│   │   ├── quiz.html
+│   │   ├── results.html
+│   │   └── certificate.html
+│   │
+│   ├── teacher/           # Teacher/Admin side pages
+│   │   ├── login.html
+│   │   ├── signup.html
+│   │   ├── dashboard.html
+│   │   ├── create-quiz.html
+│   │   └── results.html
+│   │
+│   ├── assets/            
+│   │   ├── css/           
+│   │   │   ├── style.css
+│   │   │   ├── student.css
+│   │   │   └── teacher.css
+│   │   ├── js/            
+│   │   │   ├── main.js
+│   │   │   ├── student.js
+│   │   │   └── teacher.js
+│   │   ├── images/
+│   │   └── fonts/
+│   │
+│   └── README.md          # frontend documentation (optional)
+│
+│── backend/               # (Baad me banega, abhi khali rakh do)
+│   ├── server.js          # Node/Express ka entry point (ya Java Spring boot app)
+│   ├── routes/            # APIs ke routes
+│   ├── models/            # Database models
+│   ├── controllers/       # Logic
+│   └── config/            # DB + env configs
+│
+└── README.md              # Project level doc (overall guide)
