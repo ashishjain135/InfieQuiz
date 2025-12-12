@@ -1,0 +1,36 @@
+infieQuiz/
+├─ backend/
+│  ├─ src/
+│  │  ├─ controllers/
+│  │  │  └─ auth.controller.ts
+│  │  ├─ middleware/
+│  │  │  └─ auth.middleware.ts
+│  │  ├─ models/
+│  │  │  └─ user.model.ts
+│  │  ├─ routes/
+│  │  │  └─ auth.routes.ts
+│  │  ├─ utils/
+│  │  │  └─ tokens.ts
+│  │  ├─ app.ts
+│  │  └─ server.ts
+│  ├─ Dockerfile
+│  ├─ package.json
+│  ├─ tsconfig.json
+│  ├─ jest.config.js
+│  └─ .eslintrc.json
+├─ frontend/
+│  ├─ src/
+│  │  ├─ pages/
+│  │  │  ├─ Login.tsx
+│  │  │  └─ Register.tsx
+│  │  ├─ hooks/
+│  │  │  └─ useAuth.tsx
+│  │  ├─ App.tsx
+│  │  └─ main.tsx
+│  ├─ tailwind.config.js
+│  ├─ Dockerfile
+│  ├─ package.json
+│  └─ tsconfig.json
+├─ docker-compose.yml (optional local)
+├─ .env.example
+└─ README.md
