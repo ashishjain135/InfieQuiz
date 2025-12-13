@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 // mount routes
-app.use("/api/users", userRouter);
+app.use("/api/user", userRouter);
 
 // health
 app.get("/", (req, res) => res.json({ ok: true, msg: "infieQuiz backend running" }));
